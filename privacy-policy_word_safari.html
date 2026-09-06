@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+
+  <title>Word Safari – Privacy Policy</title>
+
+  <meta
+    name="description"
+    content="Privacy Policy for Word Safari, a mobile word search puzzle game."
+  >
+
+  <style>
+    :root {
+      --bg-color: #f6f8f3;
+      --card-bg: #ffffff;
+      --text-main: #263126;
+      --text-muted: #687568;
+      --heading-color: #182219;
+      --accent-color: #4f7d32;
+      --accent-hover: #3d6526;
+      --border-color: #dfe6da;
+      --table-header-bg: #eef4e9;
+      --radius: 10px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        Oxygen,
+        Ubuntu,
+        Cantarell,
+        "Helvetica Neue",
+        sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      line-height: 1.7;
+      font-size: 16px;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      background-color: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 15px;
+      padding: 40px;
+      box-shadow:
+        0 4px 12px rgba(0, 0, 0, 0.04),
+        0 2px 5px rgba(0, 0, 0, 0.03);
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        padding: 24px 18px;
+        border-radius: var(--radius);
+      }
+    }
+
+    header {
+      border-bottom: 2px solid var(--border-color);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+
+    .app-badge {
+      display: inline-block;
+      background-color: #edf5e8;
+      color: var(--accent-color);
+      font-weight: 700;
+      font-size: 14px;
+      padding: 5px 13px;
+      border-radius: 9999px;
+      margin-bottom: 12px;
+      border: 1px solid #d4e4ca;
+    }
+
+    h1 {
+      color: var(--heading-color);
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+
+    .meta-info {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 20px;
+      color: var(--text-muted);
+      font-size: 14px;
+      margin-top: 14px;
+    }
+
+    .toc {
+      background-color: #f8faf6;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      padding: 20px;
+      margin-bottom: 36px;
+    }
+
+    .toc h2 {
+      font-size: 18px;
+      margin-bottom: 12px;
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .toc ol {
+      padding-left: 20px;
+      column-count: 2;
+      column-gap: 30px;
+    }
+
+    @media (max-width: 768px) {
+      .toc ol {
+        column-count: 1;
+      }
+    }
+
+    .toc li {
+      margin-bottom: 6px;
+      font-size: 14px;
+    }
+
+    .toc a {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
+
+    .toc a:hover {
+      color: var(--accent-hover);
+      text-decoration: underline;
+    }
+
+    section {
+      margin-bottom: 34px;
+    }
+
+    h2 {
+      color: var(--heading-color);
+      font-size: 22px;
+      font-weight: 700;
+      margin-top: 32px;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    h3 {
+      color: var(--heading-color);
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 16px;
+    }
+
+    ul,
+    ol {
+      margin-bottom: 16px;
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: var(--accent-hover);
+      text-decoration: underline;
+    }
+
+    code {
+      background: #eef2eb;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .callout {
+      background-color: #f2f8ee;
+      border-left: 4px solid var(--accent-color);
+      padding: 16px;
+      border-radius: 0 var(--radius) var(--radius) 0;
+      margin-bottom: 20px;
+      font-size: 15px;
+    }
+
+    .table-container {
+      width: 100%;
+      overflow-x: auto;
+      margin-bottom: 24px;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 14px;
+    }
+
+    th,
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border-color);
+      vertical-align: top;
+    }
+
+    th {
+      background-color: var(--table-header-bg);
+      color: var(--heading-color);
+      font-weight: 700;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border-color);
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+
+    footer p {
+      margin-bottom: 6px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <header>
+    <span class="app-badge">Mobile Game</span>
+
+    <h1>Word Safari – Privacy Policy</h1>
+
+    <div class="meta-info">
+      <div><strong>Application:</strong> Word Safari</div>
+      <div><strong>Platform:</strong> Android</div>
+      <div><strong>Effective Date:</strong> September 5, 2026</div>
+      <div><strong>Last Updated:</strong> September 5, 2026</div>
+    </div>
+  </header>
+
+
+  <!-- TABLE OF CONTENTS -->
+
+  <nav class="toc">
+
+    <h2>Table of Contents</h2>
+
+    <ol>
+      <li><a href="#section-1">Privacy Policy</a></li>
+      <li><a href="#section-2">Introduction</a></li>
+      <li><a href="#section-3">Information We May Collect</a></li>
+      <li><a href="#section-4">Device and Technical Information</a></li>
+      <li><a href="#section-5">Gameplay Information</a></li>
+      <li><a href="#section-6">Advertising</a></li>
+      <li><a href="#section-7">Google AdMob</a></li>
+      <li><a href="#section-8">Advertising Identifiers</a></li>
+      <li><a href="#section-9">How We Use Information</a></li>
+      <li><a href="#section-10">How We Share Information</a></li>
+      <li><a href="#section-11">Third-Party Services</a></li>
+      <li><a href="#section-12">Data Retention</a></li>
+      <li><a href="#section-13">Data Security</a></li>
+      <li><a href="#section-14">Children's Privacy</a></li>
+      <li><a href="#section-15">International Data Processing</a></li>
+      <li><a href="#section-16">Your Privacy Choices</a></li>
+      <li><a href="#section-17">Data Deletion Requests</a></li>
+      <li><a href="#section-18">Third-Party Links</a></li>
+      <li><a href="#section-19">Changes to This Policy</a></li>
+      <li><a href="#section-20">Contact Us</a></li>
+    </ol>
+
+  </nav>
+
+
+  <main>
+
+    <!-- SECTION 1 -->
+
+    <section id="section-1">
+
+      <h2>1. Privacy Policy</h2>
+
+      <p>
+        This Privacy Policy explains how information may be handled in
+        connection with <strong>Word Safari</strong>, a word-search puzzle
+        game developed for Android devices.
+      </p>
+
+      <p>
+        We respect your privacy and are committed to being transparent about
+        the information that may be processed when you download, install,
+        access, or play Word Safari.
+      </p>
+
+    </section>
+
+
+    <!-- SECTION 2 -->
+
+    <section id="section-2">
+
+      <h2>2. Introduction</h2>
+
+      <p>
+        Word Safari is a casual word-search puzzle game that allows players
+        to discover hidden words through progressively challenging puzzles,
+        safari-themed environments, daily puzzles, and gameplay challenges.
+      </p>
+
+      <p>
+        The game does not require users to create an account or provide
+        personal information such as their name, phone number, or home
+        address in order to play.
+      </p>
+
+      <p>
+        This Privacy Policy describes the types of technical and usage
+        information that may be processed by the game and by third-party
+        services integrated into the application.
+      </p>
+
+    </section>
+
+
+    <!-- SECTION 3 -->
+
+    <section id="section-3">
+
+      <h2>3. Information We May Collect</h2>
+
+      <p>
+        Depending on your device, settings, region, and the third-party
+        services used by the application, certain information may be
+        processed automatically.
+      </p>
+
+      <p>Potential categories include:</p>
+
+      <ul>
+
+        <li>
+          <strong>Device Information:</strong>
+          Device model, manufacturer, screen characteristics, and hardware
+          information.
+        </li>
+
+        <li>
+          <strong>Operating System Information:</strong>
+          Android version and related system information.
+        </li>
+
+        <li>
+          <strong>Application Information:</strong>
+          Application version, build information, and installation-related
+          information.
+        </li>
+
+        <li>
+          <strong>Network Information:</strong>
+          IP address, network type, and general connectivity information
+          where processed by third-party services.
+        </li>
+
+        <li>
+          <strong>Advertising Information:</strong>
+          Advertising identifiers and advertising-related information where
+          applicable.
+        </li>
+
+        <li>
+          <strong>Gameplay Information:</strong>
+          Game sessions, levels played, levels completed, feature usage,
+          hints, and similar gameplay interactions where analytics or
+          advertising services process such information.
+        </li>
+
+        <li>
+          <strong>Diagnostic Information:</strong>
+          Crash information, error information, and technical performance
+          information where provided by integrated services.
+        </li>
+
+      </ul>
+
+      <div class="callout">
+
+        <strong>Important:</strong>
+        Not every category listed above is necessarily collected directly
+        by Word Safari. Some information may be processed automatically by
+        third-party services used to provide advertising or other technical
+        functionality.
+
+      </div>
+
+    </section>
+
+
+    <!-- SECTION 4 -->
+
+    <section id="section-4">
+
+      <h2>4. Device and Technical Information</h2>
+
+      <p>
+        Technical information may be processed to help the application and
+        its supporting services function properly.
+      </p>
+
+      <p>This may include information such as:</p>
+
+      <ul>
+
+        <li>Device model and manufacturer.</li>
+        <li>Android operating system version.</li>
+        <li>Application version and build information.</li>
+        <li>Screen and device configuration.</li>
+        <li>General network information.</li>
+        <li>Technical diagnostics and error information.</li>
+
+      </ul>
+
+      <p>
+        This information may be used to improve compatibility, stability,
+        performance, security, and the overall player experience.
+      </p>
+
+    </section>
+
+
+    <!-- SECTION 5 -->
+
+    <section id="section-5">
+
+      <h2>5. Gameplay Information</h2>
+
+      <p>
+        Word Safari may process general gameplay and interaction information
+        when necessary for game functionality, diagnostics, advertising,
+        or service improvement.
+      </p>
+
+      <p>Examples may include:</p>
+
+      <ul>
+
+        <li>Levels started and completed.</li>
+        <li>Game sessions and session duration.</li>
+        <li>Hints or other game features used.</li>
+        <li>Daily puzzle or challenge participation.</li>
+        <li>General navigation and interaction with game features.</li>
+
+      </ul>
+
+      <p>
+        Gameplay information is used to support the operation and improvement
+        of the game and its features.
+      </p>
+
+    </section>
+
+
+    <!-- SECTION 6 -->
+
+    <section id="section-6">
+
+      <h2>6. Advertising</h2>
+
+      <p>
+        Word Safari may display advertisements to support the continued
+        development and availability of the game.
+      </p>
+
+      <p>
+        Advertisements may include banner, interstitial, or rewarded
+        advertisements depending on the version and configuration of the
+        application.
+      </p>
+
+      <p>
+        Advertising providers may process technical and advertising-related
+        information in order to deliver advertisements, measure advertising
+        performance, prevent fraud, and provide personalized or
+        non-personalized advertising where permitted.
+      </p>
+
+    </section>
+
+
+    <!-- SECTION 7 -->
+
+    <section id="section-7">
+
+      <h2>7. Google AdMob</h2>
+
+      <p>
+        Word Safari uses <strong>Google AdMob</strong> for in-app
+        advertising.
+      </p>
+
+      <p>
+        Google AdMob is a service provided by Google that enables
+        advertisements to be displayed inside mobile applications.
+      </p>
+
+      <p>
+        Depending on applicable laws, user consent, device settings, and
+        Google's advertising configuration, Google may process information
+        such as:
+      </p>
+
+      <ul>
+
+        <li>Advertising identifiers.</li>
+        <li>Device information.</li>
+        <li>IP address and network information.</li>
+        <li>Ad impressions and interactions.</li>
+        <li>General diagnostic and performance information.</li>
+
+      </ul>
+
+      <p>
+        Google processes information according to its own privacy policies
+        and applicable data protection requirements.
+      </p>
+
+      <p>
+        For more information about Google's privacy practices, please visit
+        the official Google Privacy Policy.
+      </p>
+
+    </section>
+
+
+    <!-- SECTION 8 -->
+
+    <section id="section-8">
+
+      <h2>8. Advertising Identifiers</h2>
+
+      <p>
+        Android devices may provide advertising identifiers that can be used
+        by advertising services to support advertising delivery and
+        measurement.
+      </p>
+
+      <p>
+        Users may be able to reset, restrict, or delete advertising
+        identifiers through Android privacy and advertising settings,
+        depending on their device and Android version.
+      </p>
+
+      <p>
+        Advertising choices may also depend on applicable regional consent
+        requirements.
+      </p>
+
+    </section>
+
+
+    <!-- SECTION 9 -->
+
+    <section id="section-9">
+
+      <h2>9. How We Use Information</h2>
+
+      <p>
+        Information processed in connection with Word Safari may be used for
+        purposes including:
+      </p>
+
+      <ul>
+
+        <li>
+          Operating and maintaining the game.
+        </li>
+
+        <li>
+          Providing core gameplay functionality.
+        </li>
+
+        <li>
+          Improving game performance and compatibility.
+        </li>
+
+        <li>
+          Detecting and resolving technical problems.
+        </li>
+
+        <li>
+          Understanding general gameplay usage and improving game design.
+        </li>
+
+        <li>
+          Delivering and measuring advertisements.
+        </li>
+
+        <li>
+          Preventing advertising fraud and abuse.
+        </li>
+
+        <li>
+          Protecting the security and integrity of the application.
+        </li>
+
+        <li>
+          Complying with applicable legal requirements.
+        </li>
+
+      </ul>
+
+    </section>
+
+
+    <!-- SECTION 10 -->
+
+    <section id="section-10">
+
+      <h2>10. How We Share Information</h2>
+
+      <p>
+        We do not sell personal information to third parties.
+      </p>
+
+      <p>
+        Information may be processed by third-party service providers when
+        necessary to provide services used by the application.
+      </p>
+
+      <p>These may include:</p>
+
+      <ul>
+
+        <li>
+          <strong>Google AdMob</strong> – advertising delivery,
+          measurement, and fraud prevention.
+        </li>
+
+        <li>
+          <strong>Platform and infrastructure providers</strong> –
+          technical services required to operate the application.
+        </li>
+
+      </ul>
+
+      <p>
+        Third-party providers process information according to their own
+        privacy policies and applicable legal requirements.
+      </p>
+
+    </section>
+
+
+    <!-- SECTION 11 -->
+
+    <section id="section-11">
+
+      <h2>11. Third-Party Services</h2>
+
+      <div class="table-container">
+
+        <table>
+
+          <thead>
+
+            <tr>
+              <th>Service</th>
+              <th>Purpose</th>
+              <th>Potential Information</th>
+            </tr>
+
+          </thead>
+
+          <tbody>
+
+            <tr>
+
+              <td>
+                <strong>Google AdMob</strong>
+              </td>
+
+              <td>
+                In-app advertising and advertisement measurement.
+              </td>
+
+              <td>
+                Advertising identifier, device information,
+                IP/network information, ad interactions,
+                and related technical information.
+              </td>
+
+            </tr>
+
+          </tbody>
+
+        </table>
+
+      </div>
+
+    </section>
+
+
+    <!-- SECTION 12 -->
+
+    <section id="section-12">
+
+      <h2>12. Data Retention</h2>
+
+      <p>
+        Word Safari does not maintain traditional user accounts or user
+        profiles requiring personal registration.
+      </p>
+
+      <p>
+        Information processed by third-party services such as advertising
+        providers may be retained according to their own privacy policies,
+        retention schedules, and applicable legal requirements.
+      </p>
+
+    </section>
+
+
+    <!-- SECTION 13 -->
+
+    <section id="section-13">
+
+      <h2>13. Data Security</h2>
+
+      <p>
+        We take reasonable measures to protect information associated with
+        the application from unauthorized access, misuse, loss, or
+        alteration.
+      </p>
+
+      <p>
+        However, no electronic transmission or storage system can be
+        guaranteed to be completely secure.
+      </p>
+
+    </section>
+
+
+    <!-- SECTION 14 -->
+
+    <section id="section-14">
+
+      <h2>14. Children's Privacy</h2>
+
+      <p>
+        Word Safari is a general-audience word puzzle game.
+      </p>
+
+      <p>
+        We do not knowingly request or collect personal information directly
+        from children in violation of applicable children's privacy laws.
+      </p>
+
+      <p>
+        Where advertising services are used, their handling of information
+        relating to children is subject to their own policies, applicable
+        laws, and consent requirements.
+      </p>
+
+      <p>
+        Parents or guardians who believe that a child has provided personal
+        information inappropriately may contact us using the contact details
+        provided below.
+      </p>
+
+    </section>
+
+
+    <!-- SECTION 15 -->
+
+    <section id="section-15">
+
+      <h2>15. International Data Processing</h2>
+
+      <p>
+        Third-party service providers used by Word Safari may operate
+        infrastructure in multiple countries.
+      </p>
+
+      <p>
+        As a result, information processed by these providers may be
+        transferred to or processed in countries other than the country in
+        which you live.
+      </p>
+
+      <p>
+        Such processing is subject to the applicable privacy practices and
+        legal safeguards of the relevant service provider.
+      </p>
+
+    </section>
+
+
+    <!-- SECTION 16 -->
+
+    <section id="section-16">
+
+      <h2>16. Your Privacy Choices</h2>
+
+      <p>
+        Depending on your location and Android device, you may have choices
+        regarding advertising and related data processing.
+      </p>
+
+      <ul>
+
+        <li>
+          Manage advertising settings through Android device settings.
+        </li>
+
+        <li>
+          Reset or delete your advertising identifier where supported.
+        </li>
+
+        <li>
+          Manage advertising consent where a consent mechanism is presented.
+        </li>
+
+        <li>
+          Contact us with privacy-related questions or requests.
+        </li>
+
+      </ul>
+
+    </section>
+
+
+    <!-- SECTION 17 -->
+
+    <section id="section-17">
+
+      <h2>17. Data Deletion Requests</h2>
+
+      <p>
+        Word Safari does not require account registration or login to play.
+        Therefore, we do not maintain a traditional personal user account
+        database for gameplay.
+      </p>
+
+      <p>
+        If you have a privacy-related request concerning information that
+        may be associated with your use of the application, you may contact
+        us using the contact information below.
+      </p>
+
+      <p>
+        Requests involving information processed by third-party services
+        may need to be handled directly by those service providers,
+        depending on the nature of the information and applicable law.
+      </p>
+
+    </section>
+
+
+    <!-- SECTION 18 -->
+
+    <section id="section-18">
+
+      <h2>18. Third-Party Links</h2>
+
+      <p>
+        Advertisements or other content displayed through third-party
+        services may lead to external websites or services.
+      </p>
+
+      <p>
+        We are not responsible for the privacy practices, security, or
+        content of third-party websites and services.
+      </p>
+
+      <p>
+        Please review the privacy policies of third-party services before
+        providing them with personal information.
+      </p>
+
+    </section>
+
+
+    <!-- SECTION 19 -->
+
+    <section id="section-19">
+
+      <h2>19. Changes to This Privacy Policy</h2>
+
+      <p>
+        We may update this Privacy Policy from time to time to reflect
+        changes to Word Safari, advertising services, technical services,
+        legal requirements, or our privacy practices.
+      </p>
+
+      <p>
+        When changes are made, the "Last Updated" date at the top of this
+        page will be updated.
+      </p>
+
+      <p>
+        We recommend checking this page periodically for the latest
+        information.
+      </p>
+
+    </section>
+
+
+    <!-- SECTION 20 -->
+
+    <section id="section-20">
+
+      <h2>20. Contact Us</h2>
+
+      <p>
+        If you have questions, concerns, or requests regarding this Privacy
+        Policy or the privacy practices of Word Safari, please contact:
+      </p>
+
+      <ul>
+
+        <li>
+          <strong>Application:</strong> Word Safari
+        </li>
+
+        <li>
+          <strong>Developer:</strong> YOUR DEVELOPER NAME
+        </li>
+
+        <li>
+          <strong>Email:</strong>
+          <a href="mailto:YOUR_EMAIL@example.com">
+            YOUR_EMAIL@example.com
+          </a>
+        </li>
+
+      </ul>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+
+    <p>
+      <strong>Word Safari</strong> – Privacy Policy
+    </p>
+
+    <p>
+      Last Updated: September 5, 2026
+    </p>
+
+    <p>
+      © 2026 Word Safari. All rights reserved.
+    </p>
+
+  </footer>
+
+</div>
+
+</body>
+</html>
